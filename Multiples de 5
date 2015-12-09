@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
+a=int(input("a :"))
+b=int(input("b :"))
+compteur = a 
+somme = 0
+while compteur < b:
+	print (compteur)
+	if compteur%5==0:
+		print (compteur)
+		somme = somme + compteur
+	compteur=compteur+1
+print (somme)
